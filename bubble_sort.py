@@ -8,4 +8,4 @@ def bubble_sort(a):
                 a[i], a[i+1] = a[i+1], a[i]
     return a
 
-print(*bubble_sort) 
+print(*bubble_sort(a)) 
