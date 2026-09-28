@@ -5,4 +5,4 @@ if a == 0 :
     else:
         print("VN")
 else:
-    print(-b/a)
+    print(-b/a) 
