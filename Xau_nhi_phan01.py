@@ -1,6 +1,6 @@
-a, b = map(int,input().split())
+n, k = map(int,input().split())
 
-dp = [0] * (a+1)
+dp = [0] * (n+1) # [0] * 3 = [0,0,0]
 
 for i in range(k):
     dp[i] = 2**i
