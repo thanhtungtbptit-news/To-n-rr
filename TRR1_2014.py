@@ -4,7 +4,6 @@ def binary(n):
         if "1" * k in xau:
             print(xau)
 
-n=int(input("Nhap do dai n: "))
-k=int(input("Nhap do dai k: "))
+n,k = map(int,input().split())
 binary(n)
         
