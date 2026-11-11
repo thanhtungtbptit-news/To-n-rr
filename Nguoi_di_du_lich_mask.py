@@ -19,4 +19,3 @@ def shortest(u, mask):
 
 remaining = (1 << n) - 2
 print(shortest(0, remaining))
-print(*best_tour)
